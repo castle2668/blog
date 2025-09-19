@@ -8,6 +8,13 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  /* 背景圖片設定 */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/img/social-card.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 視差滾動效果 */
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +27,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem; /* 按鈕之間的間距 */
+}
+
+/* 確保文字在背景圖上清晰可見 */
+.heroBanner .hero__title,
+.heroBanner .hero__subtitle {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+/* 按鈕樣式優化 */
+.heroBanner .button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.heroBanner .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
