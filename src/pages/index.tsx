@@ -10,6 +10,7 @@ import styles from './index.module.css'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
+
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -22,10 +23,10 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            開始探索技術筆記 📚
+            開始探索技術筆記
           </Link>
           <Link className="button button--outline button--lg" to="/blog">
-            查看最新文章 ✨
+            查看最新文章
           </Link>
         </div>
       </div>
@@ -37,7 +38,7 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
-      title={`${siteConfig.title} - 前端工程師的技術筆記與生活分享`}
+      title="Home"
       description="Sean 的技術部落格，分享前端開發、演算法學習、旅遊心得與生活記錄。包含 React、Vue、JavaScript、CSS 等技術文章。"
     >
       <HomepageHeader />

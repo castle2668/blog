@@ -1,44 +1,44 @@
 information-ethics:
   label: Information Ethics
   permalink: /information-ethics
-  description: Information Ethics tag description
+  description: Information Ethics tag
 
 japan:
   label: Japan
   permalink: /japan
-  description: Japan tag description
+  description: Japan tag
 
 korea:
   label: Korea
   permalink: /korea
-  description: Korea tag description
+  description: Korea tag
 
 movie:
   label: Movie
   permalink: /movie
-  description: Movie tag description
+  description: Movie tag
 
 nuk:
   label: NUK
   permalink: /nuk
-  description: NUK tag description
+  description: NUK tag
 
 open-data:
   label: Open Data
   permalink: /open-data
-  description: Open Data tag description
+  description: Open Data tag
 
 sdgs:
   label: SDGs
   permalink: /sdgs
-  description: SDGs tag description
+  description: SDGs tag
 
 travel:
   label: Travel
   permalink: /travel
-  description: Travel tag description
+  description: Travel tag
 
 yearly-review:
   label: Yearly Review
   permalink: /yearly-review
-  description: Yearly review tag description
+  description: Yearly review tag
